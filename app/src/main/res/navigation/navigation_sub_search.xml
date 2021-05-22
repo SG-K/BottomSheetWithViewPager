@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation_sub_search"
+    app:startDestination="@id/explore_chapter"
+    >
+
+    <fragment
+        android:id="@+id/explore_chapter"
+        android:name="com.android.bottomsheetSample.subStackFragments.ExploreChapters"
+        android:label="Explore Chapters"
+        tools:layout="@layout/fragment_view">
+
+        <action
+            android:id="@+id/explore_chapter_to_on_search"
+            app:destination="@id/on_search"/>
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/on_search"
+        android:name="com.android.bottomsheetSample.subStackFragments.OnSearchFragment"
+        android:label="On Search"
+        tools:layout="@layout/fragment_view">
+    </fragment>
+
+<!--    <fragment-->
+<!--        android:id="@+id/fragment_one"-->
+<!--        android:name="com.android.bottomsheetSample.subStackFragments.ViewpagerFragmentOne"-->
+<!--        android:label="Fragment One"-->
+<!--        tools:layout="@layout/fragment_viewpager_one">-->
+<!--    </fragment>-->
+
+</navigation>

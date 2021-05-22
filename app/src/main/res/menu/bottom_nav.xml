@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/search"
+        android:enabled="true"
+        android:icon="@drawable/bnv_search_selector"
+        android:orderInCategory="1"
+        android:title="@string/bnv_search" />
+
+
+    <item
+        android:id="@+id/favourites"
+        android:enabled="true"
+        android:icon="@drawable/bnv_favourites_selector"
+        android:orderInCategory="2"
+        android:title="@string/bnv_fav" />
+
+    <item
+        android:id="@+id/notification"
+        android:enabled="true"
+        android:icon="@drawable/bnv_notification_selector"
+        android:orderInCategory="3"
+        android:title="@string/bnv_notif" />
+
+    <item
+        android:id="@+id/profile"
+        android:enabled="true"
+        android:icon="@drawable/bnv_profile_selector"
+        android:orderInCategory="4"
+        android:title="@string/bnv_profile" />
+
+</menu>

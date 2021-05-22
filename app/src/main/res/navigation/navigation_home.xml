@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph_home"
+    app:startDestination="@id/search">
+
+    <fragment
+        android:id="@+id/search"
+        android:name="com.android.bottomsheetSample.fragments.SearchFragment"
+        android:label="Search"
+        tools:layout="@layout/fragment_view">
+    </fragment>
+
+    <fragment
+        android:id="@+id/favourites"
+        android:name="com.android.bottomsheetSample.fragments.Favrouties"
+        android:label="Favroutie"
+        tools:layout="@layout/fragment_view">
+    </fragment>
+
+    <fragment
+        android:id="@+id/notification"
+        android:name="com.android.bottomsheetSample.fragments.Notifications"
+        android:label="Notifications"
+        tools:layout="@layout/fragment_view">
+    </fragment>
+
+    <fragment
+        android:id="@+id/profile"
+        android:name="com.android.bottomsheetSample.fragments.ProfileFragment"
+        android:label="Profile"
+        tools:layout="@layout/fragment_view">
+    </fragment>
+
+
+
+</navigation>
